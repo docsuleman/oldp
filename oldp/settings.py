@@ -241,7 +241,7 @@ class Base(Configuration):
 
     PAGINATE_UNTIL = 20  # Max. number of pages
 
-    DATABASES = values.DatabaseURLValue('mysql://oldp:oldp@127.0.0.1/oldp')
+    DATABASES = values.DatabaseURLValue('postgres://zppxctamglylrj:9ddc4afd160aded084ddc476d5f3b3961e36b94423a0732ad175c67de44ba02f@ec2-174-129-226-234.compute-1.amazonaws.com:5432/ddokkg56m24ens')
 
     # Caching
 
