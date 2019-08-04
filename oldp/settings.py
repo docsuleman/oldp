@@ -252,7 +252,7 @@ class Base(Configuration):
     CACHES = {
         "default": {
             'BACKEND': 'django_redis.cache.RedisCache',
-            'LOCATION': values.Value('redis://127.0.0.1:6379/1', environ_name='REDIS_URL'),
+            'LOCATION': values.Value('redis://h:p601207b9403d26d126e352c5879c74f4e788737628a881bd37cc053d9c3a2b53@ec2-3-222-82-60.compute-1.amazonaws.com:12909', environ_name='REDIS_URL'),
             'OPTIONS': {
                 'CLIENT_CLASS': 'django_redis.client.DefaultClient'
             },
