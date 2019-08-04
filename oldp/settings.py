@@ -39,6 +39,7 @@ class Base(Configuration):
         '127.0.0.1',
         'localhost',
         'oldp.local',
+        'hidden-harbor-39611.herokuapp.com',
         'de.oldp.local'
     ])
 
